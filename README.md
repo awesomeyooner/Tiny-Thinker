@@ -1,6 +1,12 @@
 # Tiny-Thinker
 Barebones STM32 board I made to learn PCB design. I followed [this tutorial!](https://www.youtube.com/watch?v=aVUqaB0IMh4)
 
+
+## Resources
+
+- [PCB Stack-up](https://www.youtube.com/watch?v=QAOEtfvCaMw)
+- [Vias](https://www.youtube.com/watch?v=WPT96w3eLAM)
+
 ## Pictures
 
 ### Schematic
