@@ -11287,7 +11287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e881428-c418-4482-9e0c-05fc7e89a229")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 214.63 107.9499 0)
 			(effects
 				(font
@@ -11350,7 +11350,7 @@
 		(instances
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11632,7 +11632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18d52f7d-71e0-4223-871c-aada9fbdbdc4")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 184.15 107.9499 0)
 			(effects
 				(font
@@ -11695,7 +11695,7 @@
 		(instances
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11776,7 +11776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b02a3a1-dae4-409d-a747-38a14827b3d4")
-		(property "Reference" "C14"
+		(property "Reference" "C8"
 			(at 116.84 217.1699 0)
 			(effects
 				(font
@@ -11839,7 +11839,7 @@
 		(instances
 			(project ""
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C14")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12248,7 +12248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "277225a1-c959-4f2d-97bc-0960c221b7f1")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 60.96 125.7299 0)
 			(effects
 				(font
@@ -12311,7 +12311,7 @@
 		(instances
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13406,7 +13406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "634b28e9-5011-45c1-b803-a55046d37d3b")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 171.45 107.9499 0)
 			(effects
 				(font
@@ -13469,7 +13469,7 @@
 		(instances
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13485,7 +13485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c95413-0970-475c-86db-7fa2c3363ae9")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 96.52 149.8599 0)
 			(effects
 				(font
@@ -13548,7 +13548,7 @@
 		(instances
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -13830,7 +13830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "943299e9-221d-4f77-af0b-b6c680764e51")
-		(property "Reference" "C15"
+		(property "Reference" "C5"
 			(at 73.66 125.7299 0)
 			(effects
 				(font
@@ -13893,7 +13893,7 @@
 		(instances
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C15")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16556,7 +16556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb0f7b08-194e-461a-9d39-868c263478fc")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 236.22 50.7999 0)
 			(effects
 				(font
@@ -16619,7 +16619,7 @@
 		(instances
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -17121,7 +17121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa54d89-6638-48e6-9903-fcde1b46baf4")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 217.17 50.7999 0)
 			(effects
 				(font
@@ -17184,7 +17184,7 @@
 		(instances
 			(project ""
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
