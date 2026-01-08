@@ -7370,12 +7370,12 @@
 		(uuid "6d581185-ca10-4f5a-a92e-ec3eb7f0357c")
 	)
 	(no_connect
-		(at 168.91 222.25)
-		(uuid "88f87bd1-571e-4b7d-b631-cbf8f80de427")
+		(at 168.91 199.39)
+		(uuid "71e2d500-5341-4333-95e6-ccfb878a438d")
 	)
 	(no_connect
-		(at 128.27 181.61)
-		(uuid "94ecabea-f4ba-461d-9270-b44c1af79f5f")
+		(at 168.91 222.25)
+		(uuid "88f87bd1-571e-4b7d-b631-cbf8f80de427")
 	)
 	(no_connect
 		(at 128.27 204.47)
@@ -7384,10 +7384,6 @@
 	(no_connect
 		(at 168.91 163.83)
 		(uuid "a54c71df-e2d8-493a-86e8-e5a9f3c6abd8")
-	)
-	(no_connect
-		(at 128.27 184.15)
-		(uuid "a990ee83-e61a-41d2-a527-af4099966d20")
 	)
 	(no_connect
 		(at 168.91 214.63)
@@ -7416,6 +7412,10 @@
 	(no_connect
 		(at 128.27 201.93)
 		(uuid "e8226aa6-49d9-48f6-97e9-c23f2876aae7")
+	)
+	(no_connect
+		(at 168.91 196.85)
+		(uuid "ed09953d-a561-4d59-aaf9-8b0ee72cbc62")
 	)
 	(wire
 		(pts
@@ -9838,12 +9838,12 @@
 		(uuid "fe28b943-e7cc-40e0-8686-25041c2cdb45")
 	)
 	(label "TIM3_CH1"
-		(at 168.91 196.85 0)
+		(at 128.27 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0e050b60-1680-430e-afe5-3edf41cde115")
 	)
@@ -9868,12 +9868,12 @@
 		(uuid "18309494-0de5-4b41-a7a3-c65ea2e5b77f")
 	)
 	(label "TIM3_CH2"
-		(at 168.91 199.39 0)
+		(at 128.27 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "18be0b95-e0d0-4ddb-a017-4b9929bfc587")
 	)
