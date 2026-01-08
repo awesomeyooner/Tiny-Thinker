@@ -504,7 +504,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "ADC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(215, 0, 255)",
         "priority": 7,
         "schematic_color": "rgb(215, 0, 255)",
         "wire_width": 6
@@ -513,7 +513,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "CAN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(127, 117, 255)",
         "priority": 2,
         "schematic_color": "rgb(127, 117, 255)",
         "wire_width": 6
@@ -522,16 +522,16 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(72, 72, 72)",
         "priority": 0,
-        "schematic_color": "rgb(0, 0, 0)",
+        "schematic_color": "rgb(72, 72, 72)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 104, 5)",
         "priority": 5,
         "schematic_color": "rgb(255, 104, 5)",
         "wire_width": 6
@@ -540,7 +540,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 6
@@ -549,7 +549,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 189)",
         "priority": 3,
         "schematic_color": "rgb(255, 0, 189)",
         "wire_width": 6
@@ -558,7 +558,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SWD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 237)",
         "priority": 4,
         "schematic_color": "rgb(0, 255, 237)",
         "wire_width": 6
@@ -567,7 +567,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "TIM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 126, 255)",
         "priority": 6,
         "schematic_color": "rgb(0, 126, 255)",
         "wire_width": 6
@@ -576,7 +576,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(13, 255, 0)",
         "priority": 8,
         "schematic_color": "rgb(13, 255, 0)",
         "wire_width": 6
