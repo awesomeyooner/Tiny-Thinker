@@ -6654,6 +6654,18 @@
 		)
 		(uuid "08d7d8f1-454c-45d6-b27f-16afedc0255c")
 	)
+	(text "+VBUSF from Pi Filter, connected to USB (nom. +5V)\n22uF from AMS1117 Datasheet Pg 5"
+		(exclude_from_sim no)
+		(at 145.542 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1f06d848-be8d-4983-bfc0-c00afdff1564")
+	)
 	(text "Pi Filter"
 		(exclude_from_sim no)
 		(at 282.956 37.338 0)
@@ -6774,9 +6786,9 @@
 		)
 		(uuid "7562333f-f8c8-443b-b826-979c4bd8f878")
 	)
-	(text "Value specified Datasheet Pg77\n"
+	(text "Value specified Datasheet Pg77\nTable 18"
 		(exclude_from_sim no)
-		(at 113.538 233.68 0)
+		(at 113.538 234.696 0)
 		(effects
 			(font
 				(size 1.27 1.27)
