@@ -6522,18 +6522,6 @@
 		)
 	)
 	(rectangle
-		(start 168.91 199.39)
-		(end 179.07 204.47)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 05212d9a-7c9f-46b5-99b6-f16350275109)
-	)
-	(rectangle
 		(start 205.74 21.59)
 		(end 255.905 73.66)
 		(stroke
@@ -6544,54 +6532,6 @@
 			(type none)
 		)
 		(uuid 16eeb297-22fe-4612-818f-0c375d26b6b4)
-	)
-	(rectangle
-		(start 168.91 173.99)
-		(end 177.165 179.07)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 31607f5e-15d8-437c-a705-70ba6e1b0777)
-	)
-	(rectangle
-		(start 168.91 140.97)
-		(end 179.07 151.13)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6542ba09-4155-4f4d-80ed-fbf38429a513)
-	)
-	(rectangle
-		(start 168.91 151.13)
-		(end 179.07 161.29)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ca036e34-cadf-4735-b775-a1a5d60507cf)
-	)
-	(rectangle
-		(start 168.91 168.91)
-		(end 177.165 173.99)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ce186960-66d6-45d6-9e49-8206080fe318)
 	)
 	(rectangle
 		(start 262.89 21.59)
@@ -6616,18 +6556,6 @@
 			(type none)
 		)
 		(uuid e0d9aa20-0ca3-4b0f-bae6-5f9ada6ce4a7)
-	)
-	(rectangle
-		(start 168.91 204.47)
-		(end 177.8 209.55)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fa92826e-d5fc-49ec-a86c-1db431236214)
 	)
 	(text "Tiny Thinker STM32 PCB\n"
 		(exclude_from_sim no)
@@ -14515,7 +14443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2006ba9-acb5-4138-89a7-24a14271e4f7")
-		(property "Reference" "U3"
+		(property "Reference" "D1"
 			(at 318.3889 49.53 0)
 			(effects
 				(font
@@ -14584,7 +14512,7 @@
 		(instances
 			(project ""
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "U3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
