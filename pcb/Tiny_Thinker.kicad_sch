@@ -14443,7 +14443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2006ba9-acb5-4138-89a7-24a14271e4f7")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 318.3889 49.53 0)
 			(effects
 				(font
@@ -14512,7 +14512,7 @@
 		(instances
 			(project ""
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
