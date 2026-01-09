@@ -7703,6 +7703,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 243.84) (xy 237.49 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ea95a3-0bde-4b59-882f-675127b0f827")
+	)
+	(wire
+		(pts
 			(xy 95.25 133.35) (xy 82.55 133.35)
 		)
 		(stroke
@@ -9153,6 +9163,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 234.95) (xy 237.49 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9647ccd-9b75-47f8-ae8e-97d432e0e6b5")
+	)
+	(wire
+		(pts
 			(xy 345.44 181.61) (xy 345.44 187.96)
 		)
 		(stroke
@@ -9673,6 +9693,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 243.84) (xy 237.49 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f90789-976b-40e1-9010-a53b84b82c16")
+	)
+	(wire
+		(pts
 			(xy 345.44 151.13) (xy 345.44 158.75)
 		)
 		(stroke
@@ -9700,6 +9730,16 @@
 			(type default)
 		)
 		(uuid "e6d779ca-d8e6-42c9-a180-c5279bc27d53")
+	)
+	(wire
+		(pts
+			(xy 237.49 236.22) (xy 243.84 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a8af5b-9188-4a3f-91f0-11a94f66460b")
 	)
 	(wire
 		(pts
@@ -10153,6 +10193,16 @@
 		)
 		(uuid "62ff85c7-f93c-4ab1-96eb-8eb8e8bd4e4a")
 	)
+	(label "CAN1_RX"
+		(at 243.84 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6550d9ab-5464-4833-82e6-369e88e2b24a")
+	)
 	(label "SPI1_MISO"
 		(at 168.91 158.75 0)
 		(effects
@@ -10222,6 +10272,16 @@
 			(justify right bottom)
 		)
 		(uuid "7882d677-d63e-4df1-a128-07ea1d1ede09")
+	)
+	(label "CAN1_TX"
+		(at 243.84 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "809d01bf-a0b8-4a13-a290-82d94d402d2e")
 	)
 	(label "NRST"
 		(at 114.3 143.51 0)
@@ -12653,6 +12713,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 237.49 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "363593c1-8c95-4c96-a567-9d67682c4e09")
+		(property "Reference" "#PWR030"
+			(at 237.49 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 249.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc9e422e-2b25-4abd-8605-b81dac051322")
+		)
+		(instances
+			(project "Tiny_Thinker"
+				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 95.25 127 0)
 		(unit 1)
@@ -12791,6 +12916,81 @@
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 248.92 241.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42d0eda4-eb7c-45d9-b368-c8436ffa4c4b")
+		(property "Reference" "J7"
+			(at 245.364 232.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CAN1"
+			(at 244.348 246.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 248.92 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 248.92 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5349637e-c33c-4342-a301-332928fd42cf")
+		)
+		(pin "3"
+			(uuid "e77add20-7e55-41e3-a077-7522c620b332")
+		)
+		(pin "2"
+			(uuid "2dd2a5b7-4d02-4323-8a2a-bd39c66ba4b2")
+		)
+		(pin "1"
+			(uuid "c768ba83-1bf4-4eb4-a952-a5e9748ed4a4")
+		)
+		(instances
+			(project "Tiny_Thinker"
+				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -16541,6 +16741,71 @@
 			(project ""
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 237.49 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0715719-ccd1-4906-8a8b-29a14a26f7e0")
+		(property "Reference" "#PWR029"
+			(at 237.49 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 237.49 230.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 237.49 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb7b39a5-6f86-4b90-acea-102fb8a7d143")
+		)
+		(instances
+			(project "Tiny_Thinker"
+				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
