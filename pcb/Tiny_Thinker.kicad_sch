@@ -6321,7 +6321,7 @@
 	)
 	(text "2x20\nMALE"
 		(exclude_from_sim no)
-		(at 343.408 154.178 0)
+		(at 335.28 212.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
