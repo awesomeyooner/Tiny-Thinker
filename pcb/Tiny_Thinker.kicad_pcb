@@ -582,6 +582,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C1623"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69eeabe5-1c2d-4878-a689-6e028420c090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f195d2e6-1e21-45f6-ae73-4a34fe01cccb")
 		(sheetname "/")
@@ -993,6 +1006,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" " C7519"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60ede6f2-3710-4947-b1b0-21cf97971809")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/a2006ba9-acb5-4138-89a7-24a14271e4f7")
 		(sheetname "/")
@@ -1338,6 +1364,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25900"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "716a4a59-6b93-4ef7-a39f-5901dcaddd88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/10110924-5826-49b3-a50e-92d2a7d4bbe0")
 		(sheetname "/")
@@ -1533,6 +1572,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" " C50980"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a309db5d-92c7-48b5-9c79-de3a8b0b3ddb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3011,6 +3063,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" "C25905"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0234081f-682c-49e3-8c38-8969e2eeb2bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/49ad3ce4-3996-4697-b0a7-1983e8182afb")
 		(sheetname "/")
@@ -3472,6 +3537,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25531"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "897d9a16-3aeb-4b34-af42-77895776fbaf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5026,6 +5104,19 @@
 				)
 			)
 		)
+		(property "JLCPCB Part #" " C50980"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99b3d869-831c-4ae5-a79e-b8eb92217af8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/c6958889-2e47-4c68-a713-8b19a435bf85")
 		(sheetname "/")
@@ -5684,6 +5775,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1623"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f484a7d-791c-4ff4-ada8-4bb8519ffe8e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6407,6 +6511,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25905"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bfca395-37fd-46ac-ae49-24a4fa9519e8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8428,6 +8545,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C2765186"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c193d997-f374-4ee4-b464-fe950b6fdaf0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10480,6 +10610,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C17168"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4ccc743-5a89-4306-87a5-52961a9bd74e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
