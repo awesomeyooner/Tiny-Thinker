@@ -10840,6 +10840,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25900"
+			(at 198.12 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90b748eb-7f6f-4a36-bbb5-c798b621e6bc")
 		)
@@ -11323,6 +11332,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 350.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2765186"
 			(at 350.52 57.15 0)
 			(effects
 				(font
@@ -11861,6 +11879,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25905"
+			(at 323.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "583d8535-3cd8-4bfe-9bec-6954d97d88b5")
 		)
@@ -12050,6 +12077,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 332.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25905"
 			(at 332.74 76.2 0)
 			(effects
 				(font
@@ -12419,6 +12455,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 198.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25531"
 			(at 198.12 171.45 0)
 			(effects
 				(font
@@ -13267,6 +13312,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C17168"
+			(at 283.21 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db564cef-0b95-481c-928d-e27b71954869")
 		)
@@ -13405,6 +13459,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 320.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C7519"
 			(at 320.04 57.15 0)
 			(effects
 				(font
@@ -14789,6 +14852,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" " C50980"
+			(at 334.01 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "aeb5b85a-6a35-4268-8afe-68c8759565ad")
 		)
@@ -15038,6 +15110,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1623"
+			(at 292.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00640f32-d79f-4886-8377-184e4199fa0c")
 		)
@@ -15098,6 +15179,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 265.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C50980"
 			(at 265.43 182.88 0)
 			(effects
 				(font
@@ -15912,6 +16002,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 274.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1623"
 			(at 274.32 50.8 0)
 			(effects
 				(font
