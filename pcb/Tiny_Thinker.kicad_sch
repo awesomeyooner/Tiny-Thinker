@@ -6102,6 +6102,18 @@
 		)
 		(uuid "008c36c8-0c7c-4596-a57d-037b97316764")
 	)
+	(text "try\n470 Ohm"
+		(exclude_from_sim no)
+		(at 191.516 52.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0834c2da-6d13-40dc-bc4a-2401a791f670")
+	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
 		(at 93.218 45.974 0)
@@ -6306,6 +6318,18 @@
 		)
 		(uuid "a75e9169-1e04-4d30-ba9a-7613ab01fb11")
 	)
+	(text "3.3V - 2.4V = 0.9V\n0.9V / 1.5k = 0.6mA"
+		(exclude_from_sim no)
+		(at 188.214 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a8057d31-0c77-45b2-9dcf-f081312b982e")
+	)
 	(text "M2"
 		(exclude_from_sim no)
 		(at 81.28 75.438 0)
@@ -6367,7 +6391,19 @@
 		)
 		(uuid "b941cfc1-2250-4370-b3f9-d7d7955fb2fd")
 	)
-	(text "2.2mA using\n1.5k Resistor"
+	(text "LED Datasheet\nForward Voltage\n~ 2.4V"
+		(exclude_from_sim no)
+		(at 179.324 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "cb81a72c-0a4d-46a6-a6a2-50f8ea95f144")
+	)
+	(text "0.6mA using\n1.5k Resistor"
 		(exclude_from_sim no)
 		(at 177.546 45.72 0)
 		(effects
