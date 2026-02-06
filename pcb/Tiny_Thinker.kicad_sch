@@ -6294,9 +6294,9 @@
 		)
 		(uuid "7562333f-f8c8-443b-b826-979c4bd8f878")
 	)
-	(text "USER LED"
+	(text "USER LEDS\n"
 		(exclude_from_sim no)
-		(at 104.14 188.214 0)
+		(at 105.664 188.976 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7034,10 +7034,6 @@
 		(uuid "81ba7057-a97b-4228-8333-72ae204df3f6")
 	)
 	(no_connect
-		(at 128.27 171.45)
-		(uuid "9a6c7b66-123d-4b2d-9bc5-0ec1b10337fc")
-	)
-	(no_connect
 		(at 128.27 204.47)
 		(uuid "9d3892eb-bd4e-4682-9de1-7de5d6530294")
 	)
@@ -7060,6 +7056,10 @@
 	(no_connect
 		(at 128.27 201.93)
 		(uuid "e8226aa6-49d9-48f6-97e9-c23f2876aae7")
+	)
+	(no_connect
+		(at 128.27 171.45)
+		(uuid "ee3a0d16-10ab-45eb-b66c-9d78e56304ac")
 	)
 	(wire
 		(pts
@@ -7503,7 +7503,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 195.58) (xy 96.52 199.39)
+			(xy 92.71 195.58) (xy 92.71 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7660,6 +7660,16 @@
 			(type default)
 		)
 		(uuid "36330b9b-3e31-4f7f-aace-74842bdb5d7f")
+	)
+	(wire
+		(pts
+			(xy 104.14 182.88) (xy 110.49 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38909f9d-cb7c-4eb3-8f81-9ec91b130ce6")
 	)
 	(wire
 		(pts
@@ -7843,7 +7853,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 182.88) (xy 96.52 187.96)
+			(xy 92.71 182.88) (xy 92.71 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8540,16 +8550,6 @@
 			(type default)
 		)
 		(uuid "94e34d74-0904-4472-9f47-b908d32cd492")
-	)
-	(wire
-		(pts
-			(xy 110.49 182.88) (xy 107.95 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "978514fc-f4bc-4961-8139-3043faa864c1")
 	)
 	(wire
 		(pts
@@ -9363,7 +9363,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 182.88) (xy 96.52 182.88)
+			(xy 96.52 182.88) (xy 92.71 182.88)
 		)
 		(stroke
 			(width 0)
@@ -10103,7 +10103,7 @@
 		)
 		(uuid "b2aecb2d-ef00-4455-996b-bfc77d177c5b")
 	)
-	(label "GPIO_USER_LED"
+	(label "GPIO_USER_LED_B"
 		(at 128.27 168.91 180)
 		(effects
 			(font
@@ -10355,8 +10355,8 @@
 		)
 		(uuid "fb28eaaf-f4b8-42b1-a954-6ff252b4f54f")
 	)
-	(label "USER_LED_K"
-		(at 100.33 182.88 180)
+	(label "USER_LED_B_K"
+		(at 96.52 182.88 180)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -11924,7 +11924,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 104.14 182.88 0)
+		(at 100.33 182.88 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11933,7 +11933,7 @@
 		(dnp no)
 		(uuid "4291de7e-e479-466e-8354-c869a31e64e3")
 		(property "Reference" "D3"
-			(at 104.14 185.928 0)
+			(at 100.33 185.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +11941,7 @@
 			)
 		)
 		(property "Value" "BLUE"
-			(at 104.394 179.832 0)
+			(at 100.584 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11949,7 +11949,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 104.14 182.88 0)
+			(at 100.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11958,7 +11958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 182.88 0)
+			(at 100.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11967,7 +11967,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 104.14 182.88 0)
+			(at 100.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +11976,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 104.14 182.88 0)
+			(at 100.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11985,7 +11985,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2288"
-			(at 104.14 182.88 0)
+			(at 100.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12735,7 +12735,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 191.77 0)
+		(at 92.71 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12744,7 +12744,7 @@
 		(fields_autoplaced yes)
 		(uuid "7592c8e1-a942-47db-96dc-bd92db8746a4")
 		(property "Reference" "R8"
-			(at 99.06 190.4999 0)
+			(at 95.25 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12753,7 +12753,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 99.06 193.0399 0)
+			(at 95.25 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12762,7 +12762,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 94.742 191.77 90)
+			(at 90.932 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12771,7 +12771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 191.77 0)
+			(at 92.71 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12780,7 +12780,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 191.77 0)
+			(at 92.71 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12789,7 +12789,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25867"
-			(at 96.52 191.77 0)
+			(at 92.71 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14175,7 +14175,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 199.39 0)
+		(at 92.71 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14183,7 +14183,7 @@
 		(dnp no)
 		(uuid "b0ea0b9c-00cc-4105-ba3f-9eef2a691d14")
 		(property "Reference" "#PWR027"
-			(at 96.52 205.74 0)
+			(at 92.71 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14192,7 +14192,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 203.454 0)
+			(at 92.71 203.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14200,7 +14200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 199.39 0)
+			(at 92.71 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +14209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 199.39 0)
+			(at 92.71 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14218,7 +14218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 199.39 0)
+			(at 92.71 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
