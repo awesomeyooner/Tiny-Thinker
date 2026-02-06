@@ -6864,16 +6864,16 @@
 		(uuid "2dcf99f2-cd85-433d-b000-ddb304415935")
 	)
 	(junction
-		(at 322.58 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c552880-1745-4ac6-9ed0-52e0614dbc5f")
-	)
-	(junction
 		(at 167.64 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cd5bf76-fb2a-4266-9233-2b70581605b6")
+	)
+	(junction
+		(at 356.87 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e1eee10-8aa9-465e-945c-91bec0d012c8")
 	)
 	(junction
 		(at 317.5 154.94)
@@ -8019,6 +8019,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 127) (xy 356.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3662d72c-da7f-45da-b77e-82b5766506b8")
+	)
+	(wire
+		(pts
 			(xy 104.14 182.88) (xy 110.49 182.88)
 		)
 		(stroke
@@ -8279,16 +8289,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 127) (xy 322.58 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "520da014-f2dc-46fb-810d-4b296f5012e7")
-	)
-	(wire
-		(pts
 			(xy 204.47 237.49) (xy 213.36 237.49)
 		)
 		(stroke
@@ -8456,16 +8456,6 @@
 			(type default)
 		)
 		(uuid "609f96eb-66de-4a22-9092-e146aca97194")
-	)
-	(wire
-		(pts
-			(xy 361.95 127) (xy 345.44 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6162be48-99b5-45e2-8bb9-e57dac6c94cc")
 	)
 	(wire
 		(pts
@@ -8746,6 +8736,16 @@
 			(type default)
 		)
 		(uuid "7dedf28f-b651-4b9f-8092-02c899a8cd49")
+	)
+	(wire
+		(pts
+			(xy 345.44 127) (xy 356.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f968118-8475-4017-bd7e-4ba25fc0d00f")
 	)
 	(wire
 		(pts
@@ -9149,6 +9149,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 127) (xy 327.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a316666b-3c8c-48ca-be8c-8c1852b3a867")
+	)
+	(wire
+		(pts
 			(xy 226.06 40.64) (xy 232.41 40.64)
 		)
 		(stroke
@@ -9209,7 +9219,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 124.46) (xy 356.87 129.54)
+			(xy 356.87 124.46) (xy 356.87 127)
 		)
 		(stroke
 			(width 0)
@@ -9529,16 +9539,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 118.11) (xy 361.95 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f61196-a18c-4891-b1da-29d4d13f42f6")
-	)
-	(wire
-		(pts
 			(xy 128.27 41.91) (xy 128.27 48.26)
 		)
 		(stroke
@@ -9809,16 +9809,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 127) (xy 322.58 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e57d97e6-ba6d-4d70-aefc-ba4af77e5bc0")
-	)
-	(wire
-		(pts
 			(xy 143.51 116.84) (xy 143.51 120.65)
 		)
 		(stroke
@@ -9946,6 +9936,16 @@
 			(type default)
 		)
 		(uuid "ee802681-bd87-407f-9c4c-1eedd97da545")
+	)
+	(wire
+		(pts
+			(xy 327.66 127) (xy 327.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6f2579-a407-45f1-868e-d01d87218e4e")
 	)
 	(wire
 		(pts
@@ -11423,71 +11423,6 @@
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 361.95 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ab499d2-bee3-485d-8b44-bd628f34ab16")
-		(property "Reference" "#PWR016"
-			(at 361.95 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VBUSF"
-			(at 361.95 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 361.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 361.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "befe4198-5927-463e-9d1d-8f484287b8ef")
-		)
-		(instances
-			(project "Tiny_Thinker"
-				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15532,7 +15467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VBUSF"
+		(property "Value" "+5V_SYS"
 			(at 317.5 114.046 0)
 			(effects
 				(font
@@ -17447,6 +17382,71 @@
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 327.66 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec38a090-8516-461f-9549-40bfc825c9bb")
+		(property "Reference" "#PWR032"
+			(at 327.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_EXT"
+			(at 327.66 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 327.66 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cabd58b4-eafb-4161-a629-2e0428a1a6ac")
+		)
+		(instances
+			(project "Tiny_Thinker"
+				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
