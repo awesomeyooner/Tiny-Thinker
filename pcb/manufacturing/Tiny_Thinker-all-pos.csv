@@ -23,9 +23,6 @@ D1,RED,LED_0603_1608Metric,113.1375,-100.5,0,top
 D2,USBLC6-2SC6,SOT-23-6,149.8625,-99.25,180,top
 D3,BLUE,LED_0603_1608Metric,113.23375,-104.66,0,top
 FB1,120R,L_0603_1608Metric,125.52,-104.1325,-90,top
-FM1,Fiducial,Fiducial_1mm_Mask2mm,99,-82,0,top
-FM2,Fiducial,Fiducial_1mm_Mask2mm,100,-122,0,top
-FM3,Fiducial,Fiducial_1mm_Mask2mm,155,-83.75,0,top
 J2,PERIPHERALS,PinHeader_2x20_P2.54mm_Vertical,151.575,-74.685,-90,top
 J3,ADC_TIM,PinHeader_2x20_P2.54mm_Vertical,151.575,-127.225,-90,top
 J8,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,157.75,-99.75,90,top
