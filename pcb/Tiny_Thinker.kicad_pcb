@@ -13107,7 +13107,7 @@
 	)
 	(gr_text "NRST"
 		(at 101 133.5 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "4098b812-ac35-4bd1-912a-57f86c97e7c5")
 		(effects
 			(font
