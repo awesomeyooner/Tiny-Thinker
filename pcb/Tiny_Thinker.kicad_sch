@@ -7198,12 +7198,6 @@
 		(uuid "f13a46a4-3f9f-4ea0-88bb-525b0cf3ab71")
 	)
 	(junction
-		(at 369.57 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3bb5f41-42b5-4120-8b88-c02a1cf857e4")
-	)
-	(junction
 		(at 259.08 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7985,16 +7979,6 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 220.98) (xy 369.57 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cf7d3ff-e080-40b9-9bfd-cdf2da492708")
-	)
-	(wire
-		(pts
 			(xy 364.49 213.36) (xy 364.49 218.44)
 		)
 		(stroke
@@ -8112,16 +8096,6 @@
 			(type default)
 		)
 		(uuid "47e20436-9803-4688-9d8d-0801b9cf8740")
-	)
-	(wire
-		(pts
-			(xy 353.06 220.98) (xy 369.57 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4805fb98-df59-4355-99e8-d7c6437969cd")
 	)
 	(wire
 		(pts
@@ -10715,6 +10689,16 @@
 			(justify right bottom)
 		)
 		(uuid "c78a31c3-217c-4ac6-acf2-d1511bd95a73")
+	)
+	(label "NRST"
+		(at 353.06 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb37965f-7aee-46c8-a56b-851229e8c4a6")
 	)
 	(label "SWDIO"
 		(at 199.39 191.77 0)
@@ -16062,7 +16046,7 @@
 				)
 			)
 		)
-		(property "Value" "ADC_TIM"
+		(property "Value" "Conn_2x20"
 			(at 346.456 169.926 0)
 			(effects
 				(font
@@ -16554,7 +16538,7 @@
 				)
 			)
 		)
-		(property "Value" "PERIPHERALS"
+		(property "Value" "Conn_2x20"
 			(at 278.13 170.18 0)
 			(effects
 				(font
