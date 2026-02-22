@@ -6253,18 +6253,6 @@
 		)
 		(uuid "008c36c8-0c7c-4596-a57d-037b97316764")
 	)
-	(text "try\n470 Ohm"
-		(exclude_from_sim no)
-		(at 175.006 55.118 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "0834c2da-6d13-40dc-bc4a-2401a791f670")
-	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
 		(at 52.578 38.354 0)
@@ -11072,7 +11060,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C5674"
+		(property "JLCPCB Part #" "C45783"
 			(at 111.76 54.61 0)
 			(effects
 				(font
@@ -11428,7 +11416,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C14445"
+		(property "JLCPCB Part #" "C52923"
 			(at 241.3 124.46 0)
 			(effects
 				(font
@@ -11717,7 +11705,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C14445"
+		(property "JLCPCB Part #" "C52923"
 			(at 210.82 124.46 0)
 			(effects
 				(font
@@ -12131,7 +12119,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1691"
+		(property "JLCPCB Part #" "C19702"
 			(at 87.63 142.24 0)
 			(effects
 				(font
@@ -13058,7 +13046,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1524"
+		(property "JLCPCB Part #" "C15195"
 			(at 198.12 124.46 0)
 			(effects
 				(font
@@ -13780,7 +13768,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1691"
+		(property "JLCPCB Part #" "C19702"
 			(at 196.85 46.99 0)
 			(effects
 				(font
@@ -14146,7 +14134,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1691"
+		(property "JLCPCB Part #" "C19702"
 			(at 264.16 46.99 0)
 			(effects
 				(font
@@ -14435,7 +14423,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C5674"
+		(property "JLCPCB Part #" "C45783"
 			(at 151.13 54.61 0)
 			(effects
 				(font
@@ -15472,7 +15460,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C69336"
+		(property "JLCPCB Part #" "C915971"
 			(at 179.07 199.39 0)
 			(effects
 				(font
@@ -16273,7 +16261,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1691"
+		(property "JLCPCB Part #" "C19702"
 			(at 218.44 54.61 0)
 			(effects
 				(font
@@ -17122,7 +17110,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1545"
+		(property "JLCPCB Part #" "C32949 "
 			(at 50.8 191.77 0)
 			(effects
 				(font
@@ -17761,7 +17749,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1545"
+		(property "JLCPCB Part #" "C32949 "
 			(at 31.75 191.77 0)
 			(effects
 				(font
