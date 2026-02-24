@@ -29,6 +29,12 @@ Create a folder called `manufacturing` to put the BOM, CPL, and Gerbers in
 
 - [JLCPCB Parts](https://jlcpcb.com/parts)
 
+### Tips
+- Tie decoupling capacitor's ground to via, not MCU's ground to via
+- Don't put two vias at two ends of a trace, creates a ground loop
+- For 4 layer boards, if you jump from signal plane to signal plane with a via, place a ground via near it so that it can couple to it
+- Try to keep USB Differential Pair traces `<10mm`
+
 ### STM32 Application Notes
 - [AN4879 Using USB](https://www.st.com/resource/en/application_note/an4879-introduction-to-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf)
 - [STM32F446RET6 Datasheet](https://www.st.com/resource/en/datasheet/stm32f446mc.pdf)
