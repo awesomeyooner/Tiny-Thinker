@@ -700,7 +700,7 @@
       "plot": "manufacturing/",
       "pos_files": "manufacturing/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Tiny_Thinker.step",
       "svg": "",
       "vrml": ""
     },
