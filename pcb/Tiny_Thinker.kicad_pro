@@ -70,9 +70,9 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "warning",
+        "connection_width": "error",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
+        "copper_sliver": "error",
         "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
