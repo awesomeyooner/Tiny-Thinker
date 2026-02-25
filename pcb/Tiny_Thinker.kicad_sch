@@ -6582,7 +6582,7 @@
 		)
 		(uuid "66620343-b63d-4b76-a24e-6eb3da12ace0")
 	)
-	(text "MODE tied to VIN1 -> Priority Mode\nPR1 High -> VOUT = VIN1\nPR1 Low -> VOUT = VIN2"
+	(text "MODE tied to VIN1 -> Priority Mode\nPR1 High (> 1V) -> VOUT = VIN1\nPR1 Low (< 1V) -> VOUT = VIN2"
 		(exclude_from_sim no)
 		(at 191.516 67.056 0)
 		(effects
