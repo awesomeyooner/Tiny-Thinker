@@ -1,4 +1,4 @@
-"Value","Designator","Footprint","JLCPCB Part #","Qty"
+"Comment","Designator","Footprint","JLCPCB Part #","Qty"
 "100nF","C1,C2,C3,C4,C5,C7","Capacitor_SMD:C_0402_1005Metric","C1525","6"
 "10uF","C6,C18,C19,C20","Capacitor_SMD:C_0603_1608Metric","C19702","4"
 "4.7uF","C8","Capacitor_SMD:C_0402_1005Metric","C23733","1"
