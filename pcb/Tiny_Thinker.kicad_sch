@@ -2093,6 +2093,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -6301,6 +6462,18 @@
 		)
 		(uuid "230d6c36-a550-4513-91aa-f857dcb30949")
 	)
+	(text "Caps MUST be\nTantalum\n(not ceramic!)"
+		(exclude_from_sim no)
+		(at 123.19 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "23b6724d-7fa6-4a25-b59e-6bb3b6e1ace2")
+	)
 	(text "Crystal Oscillator"
 		(exclude_from_sim no)
 		(at 40.894 158.75 0)
@@ -6409,7 +6582,7 @@
 		)
 		(uuid "66620343-b63d-4b76-a24e-6eb3da12ace0")
 	)
-	(text "MODE tied to VIN1 -> Priority Mode\nPR1 High -> VOUT = VIN1\nPR1 Low -> VOUT = VIN2"
+	(text "MODE tied to VIN1 -> Priority Mode\nPR1 High (> 1V) -> VOUT = VIN1\nPR1 Low (< 1V) -> VOUT = VIN2"
 		(exclude_from_sim no)
 		(at 191.516 67.056 0)
 		(effects
@@ -6650,6 +6823,19 @@
 			)
 		)
 		(uuid "ec4b0b4b-d58a-4571-99fc-4c095adbc89b")
+	)
+	(text "Recommended\nR-Bridge\n(link)"
+		(exclude_from_sim no)
+		(at 218.186 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(href "https://community.st.com/t5/stm32-mcus/management-of-vbus-sensing-for-usb-device-design/ta-p/49485")
+		)
+		(uuid "f43c6b95-f08e-4113-8abf-b61374df82e1")
 	)
 	(text "Datasheet Pg 122 \nFigure 33"
 		(exclude_from_sim no)
@@ -11006,85 +11192,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 111.76 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "056667e0-4b21-4990-bbe7-c504bbef9eb9")
-		(property "Reference" "C12"
-			(at 115.57 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 115.57 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 112.7252 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 111.76 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C45783"
-			(at 111.76 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6833a5b6-6fa7-40c5-ba9d-575c285e431d")
-		)
-		(pin "2"
-			(uuid "bfa0ae0c-383b-4785-8527-3fbca633c263")
-		)
-		(instances
-			(project "Tiny_Thinker"
-				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 44.45 54.61 0)
 		(unit 1)
@@ -12639,6 +12746,85 @@
 			(project "Tiny_Thinker"
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 151.13 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c7fbd8b-3234-42ee-855d-991c0ff6258b")
+		(property "Reference" "C12"
+			(at 154.94 52.4509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 154.94 54.9909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 152.0952 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" " C11366"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bb5543b-2b3b-4e22-b615-e19fb990b1c7")
+		)
+		(pin "1"
+			(uuid "4e044afc-718d-4d72-bc95-067eb0cffaf5")
+		)
+		(instances
+			(project "Tiny_Thinker"
+				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14369,17 +14555,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 151.13 54.61 0)
+		(lib_id "Device:C_Polarized")
+		(at 111.76 54.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c2e145f-2fbe-46e9-b9a7-af0dcfff0cd2")
-		(property "Reference" "C13"
-			(at 154.94 53.3399 0)
+		(uuid "9a0302a2-2159-40f8-a3d4-1beec21c0a65")
+		(property "Reference" "C21"
+			(at 107.95 52.4509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14388,7 +14574,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 154.94 55.8799 0)
+			(at 107.95 54.9909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14396,8 +14582,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 152.0952 58.42 0)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 110.7948 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +14592,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 54.61 0)
+			(at 111.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14414,8 +14600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 151.13 54.61 0)
+		(property "Description" "Polarized capacitor"
+			(at 111.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14423,25 +14609,25 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C45783"
-			(at 151.13 54.61 0)
+		(property "JLCPCB Part #" " C11366"
+			(at 111.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "85abac3e-9663-4310-a2ba-2e43589fc012")
 		)
 		(pin "2"
-			(uuid "322ae37e-025f-45d9-a463-ee2129f50abd")
+			(uuid "4114cf79-def7-48a8-8329-a7a45953e7c0")
+		)
+		(pin "1"
+			(uuid "651033b2-ff26-471a-9f9e-ddc119b594f5")
 		)
 		(instances
-			(project "Tiny_Thinker"
+			(project ""
 				(path "/1492d82e-cea7-4984-859f-7eb0a1e67ad8"
-					(reference "C13")
+					(reference "C21")
 					(unit 1)
 				)
 			)
