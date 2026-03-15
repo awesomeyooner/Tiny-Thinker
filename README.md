@@ -1,119 +1,53 @@
 # Tiny-Thinker
-Barebones STM32 board I made to learn PCB design. I followed [this tutorial!](https://www.youtube.com/watch?v=aVUqaB0IMh4)
+Barebones STM32 board I made to learn PCB design. I took inspiration from [this tutorial](https://www.youtube.com/watch?v=aVUqaB0IMh4) as well as many other videos from PhilsLab, Robert Feranec, and many more!
 
 
 ## Resources
 
-- [PCB Stack-up](https://www.youtube.com/watch?v=QAOEtfvCaMw)
-- [Vias](https://www.youtube.com/watch?v=WPT96w3eLAM)
+Instead of putting them here, I've put all my notes in this [repo!](https://github.com/awesomeyooner/KiCAD-Library/blob/main/docs/notes/Getting-Started.md)
+
+I hope they're useful!
+
+## Features
+
+This is a 4-Layer PCB centered around the **STM32F446RCT6** (same as STM32F446RET6 but with less flash) with the following stackup:
+
+- **L1** - SIGNAL (with GND Pour)
+- **L2** - GND Plane
+- **L3** - GND Plane
+- **L4** - 3.3V PWR Plane + SIGNAL
+
+Implemented Features:
+- USB C FS (Device only)
+- 5V Power Multiplexing (5V from USB + 5V from external source)
+- User-toggleable LED
+- PWR LED
+- 2 2x20 Header pins for stackable expansion boards
+
+This board breaks out the following:
+- SPI1 and SPI2 (with CS)
+- I2C1
+- CAN1 (No Transciever)
+- SWDIO
+- USB_FS
+- 8 x TIM Channels
+- 4 x ADC Channels
+- 4 x GPIO
 
 ## Pictures
 
 ### Schematic
-![Schematic](./docs/Schematic.png)
+![Schematic](./docs/pics/Schematic.png)
 
-### Routing
-![Routing](./docs/Routing.png)
+### Layout and Routing
+![Layout](./docs/pics/Layout.png)
 
 ### CAD
-![CAD](./docs/CAD.png)
+![TopDown_CAD](./docs/pics/TopDown_CAD.png)
 
-## Notes
+![ISO_CAD](./docs/pics/ISO_CAD.png)
 
-- [BOM and CPL Reference](https://jlcpcb.com/help/article/How-to-generate-the-BOM-and-Centroid-file-from-KiCAD
-)
+### Assembled Product
+![TopDown_IRL](./docs/pics/TopDown_IRL.jpg)
 
-- [Adding JLCPCB to KiCAD](https://www.youtube.com/watch?v=Bf6XzcvVBs4)
-
-Create a folder called `manufacturing` to put the BOM, CPL, and Gerbers in
-
-- [JLCPCB Parts](https://jlcpcb.com/parts)
-
-### Tips
-- Tie decoupling capacitor's ground to via, not MCU's ground to via
-- Don't put two vias at two ends of a trace, creates a ground loop
-- For 4 layer boards, if you jump from signal plane to signal plane with a via, place a ground via near it so that it can couple to it
-- Try to keep USB Differential Pair traces `<10mm`
-
-### STM32 Application Notes
-- [AN4879 Using USB](https://www.st.com/resource/en/application_note/an4879-introduction-to-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf)
-- [STM32F446RET6 Datasheet](https://www.st.com/resource/en/datasheet/stm32f446mc.pdf)
-> **NOTE** Make sure to properly calculate VCAP_1 and things like that!
-
-### BOMs
-When using JLCPCB, use this order:
->**NOTE** You could use DNP, or you could just delete all entries you don't want assembled
-
-| Comment | Designator | Footprint | JLCPCB Part # | Qty | DNP |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 100nF | C1 | Capacitor_SMD:C_0402_1005Metric | C1525 | 5 | DNP | 
-
-KiCAD is going to have this format:
->**NOTE** You can change the order of the columns, just not the names of the default ones
-
->**NOTE** Change `Value` to `Comment` and `Reference` to `Designator`
-
-| Value (`Comment`) | Reference (`Designator`) | Footprint | JLCPCB Part # | Qty | DNP |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 100nF | C1 | Capacitor_SMD:C_0402_1005Metric | C1525 | 5 | `X`
-
-### CPL / Pick&Place Files
-To start exporting the CPL files, open the `PCB Editor` and click `File` then `Fabrication Output` then `Component Placements (.pos, .gbr)...`
-
-```
-|-- PCB Editor
-|   |-- File
-|   |   |-- Fabrication Output
-|   |   |   |-- Component Placements (.pos, .gbr)...
-```
-
-Make sure it:
-
-- Format: `CSV`
-- Units: `Millimeters`
-- Check `Generate single file with both front and back positions`
-
-Then click `Generate Position File`
-
-Open the file, should be `<project>-all-pos.csv`
-
-Change the following:
-
-- `Ref` -> `Designator`
-- `PosX` -> `Mid X`
-- `PosY` -> `Mid Y`
-- `Rot` -> `Rotation`
-- `Side` -> `Layer`
-
-| Ref (`Designator`) | Val | Package| PosX (`Mid X`) | PosY (`Mid Y`)| Rot (`Rotation`) | Side (`Layer`) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| C1 | 4.7u | Capacitor_SMD:C_0402_1005Metric | 120.2 | -102 | 180 | top |
-
-### Gerber Files
-
-Go to : 
-
-```
-|-- PCB Editor
-|   |-- File
-|   |   |-- Fabrication Output
-|   |   |   |-- Gerbers (.gbr)...
-```
-
-Make sure all the included layers are correct
-
-Click `Generate Drill Files...`
-
-Tick `PTH and NPTH in single file`
-
-Click `Generate`
-
-Click `Close`
-
-Click `Plot`
-
-Put all the files that just got created into a `.zip` archive
-
-### Ordering on JLCPCB
-
-- Surface Finish: `LeadFree HASL` 
+![TopDown_IRL](./docs/pics/ISO_IRL.jpg)
